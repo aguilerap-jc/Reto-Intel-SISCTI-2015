@@ -1,0 +1,48 @@
+
+
+-----------facebook
+user: mrquor@yahoo.com.mx
+pass:blamblam2468
+fb page id: 642153615917075
+app id: 836771153069185
+app secret: 21f9d6179d052c4ba7bb7bbd3d652396
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '836771153069185',
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+cambiar short-token a long-token:
+https://graph.facebook.com/oauth/access_token?
+  client_id=836771153069185&
+  client_secret=21f9d6179d052c4ba7bb7bbd3d652396&
+  grant_type=fb_exchange_token&  fb_exchange_token=CAAL5CfdWRIEBAE0ge9ZB9VyodgxkFBIDwfkyGevcJjqSYkCjpVQJwZBUfbnLeIVCTqbQZBmZAiM7S4QAQ7QXtxZALOEZBJazmELzxTZBVcWVFZAlbPcE6tFJZCDQiKjzp8gFZB7en9bEvwk5k0mJZAj7C5NrfanAsuI6am54JexfTD6z3NXJ6iNHJ7IoyT4e361FADlchtOMeh6RZAIrEWSBuzff
+access token: 
+CAAL5CfdWRIEBAHodHWlY78Ldq8QoYC5wEYDtZC2oOinzFQMqmZAgKk4hZAcJXivA0oR5mrIfZCD5rcbBdofZBGl0Mjv7d0ZAcJ6ZAL83ZCrmPk155B5Xv66JcfSG5jxHTCfOLF36PE6e0VMWmZBZCA4OK48e91ByKCdHLZCeJ53vSRaLQT9wxST3wVIq2O97jCkX98QlfsDoelS8VCtCl5F87b9
+
+-------------------
+
+-----------twitter
+user: mrquorr
+pass: blamblam2468
+Access Token 3148684387-Oqw2LPcaCJhcu1OMTriSHFv0FwOUXqEjK4d2e1T
+Access Token Secret D4eHHBAUtfyX3IvlmMuH198w0p03TwV09gkKlDwb2muzH
+Access Level Read and write
+Owner mrquorr
+Owner ID 3148684387
+-------------------
+
+run python scripts on android: http://kivy.org/#home
